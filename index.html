@@ -7,25 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./styles.css" >
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles.css" >
 
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  <header class="jumbron">
+
+  <header class="jumbotron">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-12">
-          <h1> Join our community</h1>
+      <div class="row row-header">
+        <div class="col-12 col-sm-12 col-md-10">
+          <h3> Join our community</h3>
           <p>30-day, hassle-free money back guarantee</p>
           <p>Gain access to our full library of tuttorials along with exper code reviews.
             Perfect for any developers who are serious about honing their skills.</p>    
@@ -35,15 +31,17 @@
   </header>
 
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-10 col-md-6">
-        <h1>Monthly Subscription</h1>
+    <div class="row row-content">
+      <div class="col-12 col-sm-12 col-md-6 left">
+        <h3>Monthly Subscription</h3>
         <p>  &dollar;29 per month</p>
         <p>  Full access for less than &dollar;1 a day</p>
       </div>
-      <div class="col-12 col-sm-10 col-md-6">
-        <h1>Why US</h1>
-        <ul>
+
+      <div class="col-12 col-sm-12 col-md-6 right">
+        <h3>Why US</h3>
+        
+        <ul class="list-unstyled">
           <li>Tutorials by industry experts</li>
           <li>Peer &amp; expert code review</li>
           <li>Coding exercises</li>
@@ -54,14 +52,10 @@
         </ul>
       </div>
     </div>   
-
   </div>
-
-
-</body>
   
   <footer class="container">
-    <div class="row">
+    <div class="row footer">
       <div class="col-auto">
         <p class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
