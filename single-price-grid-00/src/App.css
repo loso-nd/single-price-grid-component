@@ -1,0 +1,89 @@
+.App {
+  margin: 0 auto; /* even spacing on left and right side*/
+  width: 80%; /* space taken on the page */
+  border: 1px solid #000;
+  font-family: 'Karla', sans-serif;
+  /* height: 80vh; */
+  /* text-align: center; centers text inside this container */
+}
+/* Top Container */
+.header {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #282c34;
+  font-weight: 400;
+  min-height: 43vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+/* Bottom Container */
+.sub-container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #6d95e6;
+  min-height: 40vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+/* Left and Right Sub Containers */
+.subscription-details{
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.why-us{
+  width: 100%;
+  border: 1px solid #000;
+}
+
+
+/*  Header Font Styling*/
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 32px;
+}
+
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 28px;
+}
+
+p {
+  color: hsl(203, 21%, 83%);
+  font-size: 24px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

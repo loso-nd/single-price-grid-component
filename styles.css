@@ -17,9 +17,6 @@ body {
     border-top-left-radius: 8px;
 }
 
-.container{
-    padding: 0px;
-}
 
 .row-content{
     padding: 0px auto;
@@ -52,13 +49,8 @@ body {
     border-bottom-right-radius: 8px;
 }
 
-h3 {
-    color: hsl(179, 62%, 43%);
-}
 
-h4 {
-    padding-bottom: 15px;
-}
+
 
 .list-unstyled li {
     font-size: 16px;
@@ -76,13 +68,6 @@ h4 {
 
 /* Font Styling */
 
-#bargain {
-    color: hsl(71, 73%, 54%);
-}
-
-.details {
-    color: hsl(218, 22%, 67%);
-}
 
 #price {
     font-size: 28px;
