@@ -14,10 +14,9 @@ function Subscription() {
                         <span className="access">Full access for less than $1 a day</span>
                     </p>
                     <Button color='olive' size='massive'fluid style={{width: '80%', borderRadius: '8px', fontsize: '30px'}}> Sign Up</Button>
-
-
                 </div>
             </div>
+
             <div className="why-us">
                 <h3> Why Us</h3>
                 <List>
