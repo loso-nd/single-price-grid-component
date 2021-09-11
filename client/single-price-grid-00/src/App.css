@@ -63,8 +63,7 @@
   color: #fff;
   font-weight: 600;
   font-size: 20px;
-  border-bottom-right-radius: 1em !important;
-
+  border-bottom-right-radius: .5em !important;
 }
 
 /*  Header Font Styling*/
@@ -156,7 +155,9 @@ and (max-device-width: 600px) {
   color: #fff;
   font-weight: 600;
   font-size: 20px;
-  border-bottom-right-radius: 1em !important;
+  border-bottom-right-radius: .5em !important;
+  border-bottom-left-radius: .5em !important;
+
 
 }
 } 
