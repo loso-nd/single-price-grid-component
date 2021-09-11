@@ -13,7 +13,7 @@ function Subscription() {
                     <br/>
                         <span className="access">Full access for less than $1 a day</span>
                     </p>
-                    <Button color='olive' size='massive'fluid style={{width: '80%', borderRadius: '8px', fontsize: '30px'}}> Sign Up</Button>
+                    <Button color='olive' size='massive' style={{minWidth: '80%', maxWidth: '80%', borderRadius: '8px', fontsize: '30px'}}> Sign Up</Button>
                 </div>
             </div>
 
