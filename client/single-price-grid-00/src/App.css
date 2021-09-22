@@ -2,7 +2,7 @@ body {background-color: #f0f0f0 }
 
 .App {
   margin: auto; /* even spacing on left and right side */
-  width: 60%; /* space taken on the page */
+  width: 70%; /* space taken on the page */
   font-family: 'Karla', sans-serif;
   border-radius: 1em !important;
   /* border: 1px solid #000; */
